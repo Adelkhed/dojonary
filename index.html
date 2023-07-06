@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Dojonary</h1>
+      <input type="text" name="nary" placeholder="Search">
+      <button id="btn1" onclick="logout()">Login</button>
+    </div>
+  </header>
+  <div class="container">
+    <main class="ninja">
+    
+      <div class="pract">
+        <div class="col1">
+          <h2>ninja</h2>
+          <h3>noun</h3>
+          <h4>Plural: ninjas</h4>
+          <button class="btn2" onclick="alertLikes()">13 likes</button>
+        </div>
+        <p>A practitioner skilled in the <br> <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+      </div>
+      <div class="programmer">
+        <div class="col1">
+          <h2>ninja</h2>
+          <h3>noun</h3>
+          <h4>Plural: ninjas</h4>
+          <button class="btn2">37 likes</button>
+        </div>
+        <p>A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like<br>focus</p>
+      </div>
+  </main>
+  <aside class="add">
+    <h2>Dojonary is <br>
+        defined by YOU
+    </h2>
+    <button id="btn3" onclick="removeDefinition()">Add Definition</button>
+  </aside>
+</div>
+<div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+
+<p class="color">darkorchid</p>
+<p class="color">darkslategrey</p>
+<p class="color">maroon</p>
+<p class="color">midnightblue</p>
+    
+<button onclick="applyColors()">Apply Colors</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
